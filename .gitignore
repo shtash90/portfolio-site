@@ -1,0 +1,10 @@
+# Python virtual environment
+.venv/
+
+# PyCharm sozlamalari
+.idea/
+
+# OS temporary files
+__pycache__/
+*.pyc
+.DS_Store
