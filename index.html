@@ -29,6 +29,23 @@
   </style>
 </head>
 <body>
+  <!-- Navigatsiya menyu (Navbar) -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Shuhrat</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Bosh sahifa</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">Men haqimda</a></li>
+          <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Kontakt</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
   <!-- Header (Hero Section) -->
   <header class="text-center py-5">
@@ -44,8 +61,34 @@
   <section id="portfolio" class="portfolio-section text-center">
     <div class="container">
       <h2 class="mb-4">Portfolio loyihalarim</h2>
-      <p>Tez orada bu yerda mening ishlarim joylanadi.</p>
+      <!--<p>Tez orada bu yerda mening ishlarim joylanadi.</p>-->
     </div>
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+    <!-- Kartochka 1 -->
+    <div class="col">
+      <div class="card h-100 shadow-sm">
+        <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="Loyiha 1">
+        <div class="card-body">
+          <h5 class="card-title">Loyiha 1</h5>
+          <p class="card-text">HTML, CSS, JavaScript asosida yaratilgan mini web ilova.</p>
+          <a href="https://github.com/shtash90/project1" class="btn btn-outline-primary" target="_blank">GitHub</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Kartochka 2 -->
+    <div class="col">
+      <div class="card h-100 shadow-sm">
+        <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="Loyiha 2">
+        <div class="card-body">
+          <h5 class="card-title">Loyiha 2</h5>
+          <p class="card-text">Python + Flask asosida backend ilova.</p>
+          <a href="https://github.com/shtash90/project2" class="btn btn-outline-primary" target="_blank">GitHub</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
   </section>
 
   <!-- Bootstrap JS -->
